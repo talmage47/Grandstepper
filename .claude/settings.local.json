@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(swift render_preview.swift)",
-      "Bash(swift -parse-as-library render_preview.swift)"
+      "Bash(swift -parse-as-library render_preview.swift)",
+      "Bash(xcodebuild -project /Users/talmage/Code/Grandstepper/grandstepper.xcodeproj -scheme grandstepper -destination 'generic/platform=iOS Simulator' -configuration Debug build CODE_SIGNING_ALLOWED=NO)"
     ]
   }
 }
