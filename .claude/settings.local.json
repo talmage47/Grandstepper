@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(swift render_preview.swift)",
+      "Bash(swift -parse-as-library render_preview.swift)"
+    ]
+  }
+}
