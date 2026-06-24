@@ -1,0 +1,47 @@
+Grandstepper Privacy Policy
+
+Last updated: June 24, 2026
+
+Grandstepper ("the app") is designed to display your daily step count and walking/running distance in large, easy-to-read numbers. This policy explains what data the app accesses and how it is handled.
+
+1. Information We Collect
+
+Grandstepper reads the following data from Apple's HealthKit on your device, only with your explicit permission:
+
+   - Daily step count
+   - Daily walking and running distance
+
+The app does not request, collect, or store any other personal information such as your name, email address, location, contacts, or device identifiers.
+
+2. How Your Information Is Used
+
+Health data read from HealthKit is used solely to display your step count and distance within the app. The data is read on demand and shown on screen.
+
+3. Data Storage and Sharing
+
+   - Grandstepper does not transmit any of your data off of your device.
+   - Grandstepper does not have its own servers, accounts, or cloud storage.
+   - Grandstepper does not share, sell, rent, or disclose your health data to any third party.
+   - Grandstepper does not use analytics, advertising, tracking, or crash-reporting services.
+
+All health information remains on your device under the protection of Apple's HealthKit framework and your device's security settings.
+
+4. Permissions
+
+The first time you open Grandstepper, iOS will ask whether you want to grant the app read access to your step count and walking/running distance. You can change or revoke this permission at any time in the Settings app under Privacy & Security > Health > Grandstepper.
+
+If you revoke permission, the app will not be able to display your steps or distance, but no further action is required on your part to remove data from the app, because no data is ever stored by the app.
+
+5. Children's Privacy
+
+Grandstepper does not knowingly collect any personal information from anyone, including children. Because the app does not collect or transmit data, it is suitable for users of any age who have permission from their parent or guardian to use the device.
+
+6. Changes to This Policy
+
+If this policy changes, the updated version will be included with future releases of the app and reflected by the "Last updated" date above.
+
+7. Contact
+
+If you have questions about this privacy policy or the app, you can reach the developer at:
+
+   support@undonecone.com
