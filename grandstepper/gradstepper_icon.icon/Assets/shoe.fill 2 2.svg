@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Generator: Apple Native CoreSVG 341-->
+
+<svg
+   version="1.1"
+   viewBox="0 0 3300 2200"
+   id="svg33"
+   sodipodi:docname="shoe.fill 2.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs33" />
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.41035777"
+     inkscape:cx="1475.5417"
+     inkscape:cy="957.70088"
+     inkscape:window-width="1834"
+     inkscape:window-height="1027"
+     inkscape:window-x="1643"
+     inkscape:window-y="162"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg33" />
+  <!--glyph: "1018F0", point size: 100.0, font version: "21.1d1e1", template writer version: "138.0.0"-->
+  <style
+     id="style1">.defaults {-sfsymbols-draw-reverses-motion-groups:true}
+
+.monochrome-0 {-sfsymbols-motion-group:0;-sfsymbols-layer-tags:shoe.fill}
+
+.multicolor-0:tintColor {-sfsymbols-motion-group:0;-sfsymbols-layer-tags:shoe.fill}
+
+.hierarchical-0:primary {-sfsymbols-motion-group:0;-sfsymbols-layer-tags:shoe.fill}
+
+.SFSymbolsPreviewWireframe {fill:none;opacity:1.0;stroke:black;stroke-width:0.5}
+</style>
+  <g
+     id="Symbols"
+     transform="matrix(16.037319,0,0,16.037319,-7340.7673,-9530)"
+     style="fill:#000000;fill-opacity:1">
+    <g
+       id="Black-S"
+       transform="translate(2857.57,696)"
+       style="fill:#000000;fill-opacity:1" />
+    <g
+       id="Regular-S"
+       transform="translate(1381.14,696)"
+       style="fill:#000000;fill-opacity:1" />
+    <g
+       id="Ultralight-S"
+       transform="translate(495.982,696)"
+       style="fill:#000000;fill-opacity:1">
+      <path
+         class="monochrome-0 multicolor-0:tintColor hierarchical-0:primary SFSymbolsPreviewWireframe"
+         d="m 16.6377,-19.8311 h 66.9126 c 7.4703,0 11.1905,-0.5883 15.0064,-2.3965 l 12.7893,-6.1318 c 4.286,-2.0728 5.813,-5.6602 5.616,-7.0347 -0.139,-2.8115 -3.99,-7.9194 -11.804,-7.9194 -3.885,0 -12.8997,1.4683 -16.4607,1.4683 -3.3393,0 -4.5952,-0.1851 -7.7436,-1.9551 l -6.1343,8.6982 c -0.3794,0.4454 -0.9849,0.5953 -1.4722,0.251 -0.477,-0.3306 -0.5781,-0.9712 -0.2441,-1.4653 l 5.999,-8.5596 -6.1269,-3.5903 -6.5079,9.2842 c -0.3828,0.4487 -0.9848,0.5918 -1.4756,0.2475 -0.4804,-0.3306 -0.5395,-0.9712 -0.2475,-1.4233 l 6.3896,-9.1875 -6.2143,-3.5904 -7.0415,10.0064 c -0.3272,0.4839 -0.9883,0.6235 -1.4688,0.2475 -0.4385,-0.3305 -0.5327,-0.9428 -0.251,-1.4233 l 6.9654,-9.9131 -2.7569,-1.6157 c -6.2548,-3.6192 -11.6479,-3.1275 -16.4595,2.9878 -4.5727,5.8389 -9.4667,8.4551 -14.6015,8.4551 -4.3706,0 -7.4263,-1.1729 -10.5479,-2.8545 -3.8921,-2.1406 -8.99218,0.0488 -8.99218,5.1094 v 19.0639 c 0,0.6494 0.04541,1.2569 0.09082,1.8154 1.81596,0.9068 3.73296,1.4258 6.78126,1.4258 z m 95.6823,-6.6767 -12.7818,5.9888 c -4.6041,2.1635 -8.6163,2.8076 -15.9879,2.8076 H 16.6377 c -2.8935,0 -4.4609,-0.2261 -6.4507,-1.169 1.2051,5.2618 4.9986,7.8292 11.1373,7.8292 h 62.227 c 9.3067,0 15.4048,-1.6773 24.4407,-6.6431 6.946,-3.8882 9.7,-8.0889 9.7,-13.3365 0,-0.2011 -0.007,-0.3569 -0.014,-0.5512 -0.998,1.8569 -2.707,3.8066 -5.358,5.0742 z"
+         id="path33"
+         style="fill:#000000;fill-opacity:1" />
+    </g>
+  </g>
+  <path
+     style="fill:#000000;stroke-width:2.4369"
+     d=""
+     id="path2" />
+</svg>

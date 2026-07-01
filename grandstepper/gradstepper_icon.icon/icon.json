@@ -11,8 +11,35 @@
             "solid" : "extended-srgb:1.00000,0.21961,0.23529,1.00000"
           },
           "glass" : true,
+          "hidden" : true,
           "image-name" : "shoe.fill 2.svg",
-          "name" : "shoe.fill 2",
+          "name" : "shoe.fill",
+          "position" : {
+            "scale" : 0.4,
+            "translation-in-points" : [
+              5.802596912643935,
+              9.036784483375868
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill" : {
+            "solid" : "srgb:0.75430,0.00792,0.00000,1.00000"
+          },
+          "image-name" : "shoe.fill 2 2.svg",
+          "name" : "shoe.fill 2 2",
           "position" : {
             "scale" : 0.4,
             "translation-in-points" : [
