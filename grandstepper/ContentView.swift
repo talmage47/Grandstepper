@@ -1,7 +1,7 @@
 import SwiftUI
 
 private let stepsColor = Color(red: 0.55, green: 0.80, blue: 1.00)
-private let milesColor = Color(red: 0.55, green: 1.00, blue: 0.70)
+private let distanceColor = Color(red: 0.55, green: 1.00, blue: 0.70)
 
 struct ContentView: View {
     @State private var health = HealthKitManager()
@@ -13,7 +13,7 @@ struct ContentView: View {
                 VStack(spacing: 0) {
                     MetricView(label: "STEPS", value: stepsText, color: stepsColor)
                         .frame(height: geo.size.height / 2)
-                    MetricView(label: "MILES", value: milesText, color: milesColor)
+                    MetricView(label: distanceLabel, value: distanceText, color: distanceColor)
                         .frame(height: geo.size.height / 2)
                 }
                 Rectangle()
@@ -32,9 +32,17 @@ struct ContentView: View {
         health.steps.formatted(.number)
     }
 
-    private var milesText: String {
-        let miles = health.distanceMeters / 1609.344
-        return String(format: "%.2f", miles)
+    private var usesMetric: Bool {
+        Locale.current.measurementSystem == .metric
+    }
+
+    private var distanceLabel: String {
+        usesMetric ? "KILOMETERS" : "MILES"
+    }
+
+    private var distanceText: String {
+        let value = usesMetric ? health.distanceMeters / 1000 : health.distanceMeters / 1609.344
+        return String(format: "%.2f", value)
     }
 }
 
@@ -60,7 +68,8 @@ private struct MetricView: View {
 
 private struct PreviewLayout: View {
     let steps: String
-    let miles: String
+    let distanceLabel: String
+    let distance: String
 
     var body: some View {
         GeometryReader { geo in
@@ -69,7 +78,7 @@ private struct PreviewLayout: View {
                 VStack(spacing: 0) {
                     MetricView(label: "STEPS", value: steps, color: stepsColor)
                         .frame(height: geo.size.height / 2)
-                    MetricView(label: "MILES", value: miles, color: milesColor)
+                    MetricView(label: distanceLabel, value: distance, color: distanceColor)
                         .frame(height: geo.size.height / 2)
                 }
                 Rectangle()
@@ -83,13 +92,17 @@ private struct PreviewLayout: View {
 }
 
 #Preview("Typical day") {
-    PreviewLayout(steps: "4,247", miles: "1.47")
+    PreviewLayout(steps: "4,247", distanceLabel: "MILES", distance: "1.47")
 }
 
 #Preview("Big numbers") {
-    PreviewLayout(steps: "18,432", miles: "8.74")
+    PreviewLayout(steps: "18,432", distanceLabel: "MILES", distance: "8.74")
+}
+
+#Preview("Metric") {
+    PreviewLayout(steps: "4,247", distanceLabel: "KILOMETERS", distance: "2.37")
 }
 
 #Preview("Empty") {
-    PreviewLayout(steps: "0", miles: "0.00")
+    PreviewLayout(steps: "0", distanceLabel: "MILES", distance: "0.00")
 }
